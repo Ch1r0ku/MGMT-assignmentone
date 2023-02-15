@@ -1,0 +1,45 @@
+/*
+* Theme Name: Assignment One
+* Author: Roman Lysenko
+* Description: This is the theme for Assignment One
+* Requires at least: 5.3
+* Tested up to: 8.0
+* Requires PHP: 5.6
+* Version: 1.7
+*/
+html {
+    margin: 0px !important;
+    padding: 10px ;
+}
+body {
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    background-color: #f9f9f9;
+}
+header div {
+    height: 115px;
+    flex-grow: 1;
+}
+.menu-main-container {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    align-items: center;
+}
+.menu li {
+    padding: 0px 10px;
+}
+header div a img {
+    width: 100px;
+    height: 100px;
+}
+
